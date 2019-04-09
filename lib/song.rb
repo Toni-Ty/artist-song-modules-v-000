@@ -21,5 +21,5 @@ extend Findable::ClassMethods
   def artist=(artist)
     @artist = artist
   end
-  
+
 end
