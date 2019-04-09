@@ -12,10 +12,6 @@ include Paramable::InstanceMethods
 
   @@songs = []
 
-  def initialize
-    @@songs << self
-  end
-
   def self.all
     @@songs
   end
