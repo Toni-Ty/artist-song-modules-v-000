@@ -2,6 +2,7 @@ require 'pry'
 
 class Artist
 
+# include is to inherit from the modules or parent class
 extend Memorable::ClassMethods
 include Memorable::InstanceMethods
 extend Findable::ClassMethods
