@@ -8,7 +8,7 @@ extend Memorable::ClassMethods
   attr_reader :artist
 
   @@songs = []
-  
+
   def initialize
     @@songs << self
   end
